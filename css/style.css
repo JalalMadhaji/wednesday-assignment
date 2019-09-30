@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+#left-sec {
+  position: relative;
+  overflow: hidden;
+}
+.left-bar {
+  background: #001f3f;
+  position: fixed;
+  /* width: 100%; */
+  width: 25%;
+  /* right: 0; */
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+.inner {
+  width: 70%;
+  color: white;
+}
+.inner a {
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 5px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  transition: all 0.4s ease;
+}
+.inner a:hover {
+  background: white;
+  color: #333;
+}
+.right-content {
+  /* background: red; */
+  padding: 20px;
+}
+.right-content h4 {
+  color: grey;
+  border-bottom: 1px solid rgb(197, 196, 196);
+}
+.right-content article {
+  position: relative;
+  padding: 10px 0;
+}
+.right-content article .circle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: url("../thumb.jpeg") no-repeat;
+  background-size: cover;
+}
+section {
+  margin: 20px 0;
+  padding: 10px 0;
+}
+#author-p {
+  color: #aaa;
+  margin: 10px 0 20px 0;
+}
+#author-p span {
+  padding: 0px 5px;
+  background: #2ecc40;
+  color: white;
+}
+#author-p span:nth-of-type(2) {
+  background: #0074d9;
+}
+#author-p i {
+  font-style: normal;
+  color: blue;
+}
+article .splite-two {
+  display: flex;
+}
+article .splite-two figure {
+  flex: 1;
+}
+article .splite-two figure:nth-of-type(1) {
+  margin-right: 5px;
+}
+article .splite-two figure:nth-of-type(2) {
+  margin-left: 5px;
+}
+article .splite-two img {
+  width: 100%;
+  height: 100%;
+}
+#author-p span#red-badge {
+  background: #ff4136;
+}
+#author-p span#grey-badge {
+  background: #aaaaaa;
+}
+footer {
+  text-align: center;
+  margin-left: 25%;
+  padding: 20px 0;
+}
+footer nav a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #999;
+}
