@@ -62,7 +62,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: url("../thumb.jpeg") no-repeat;
+  background: url("../images/thumb.jpeg") no-repeat;
   background-size: cover;
 }
 section {
